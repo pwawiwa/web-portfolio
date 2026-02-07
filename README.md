@@ -2,7 +2,7 @@
 
 A modern, responsive portfolio website built with **Astro** and **Tailwind CSS**. Showcasing work in Data Science, ML/AI Engineering, Computer Vision, and Data Engineering.
 
-## 🚀 Features
+##  Features
 
 - **Dark Theme with Emerald Accents**: Modern, eye-catching design with graph-themed animations
 - **Graph Background & Animations**: Animated grid background with floating nodes and connecting lines
@@ -17,7 +17,7 @@ A modern, responsive portfolio website built with **Astro** and **Tailwind CSS**
   - Contact Section with Social Links
   - Footer with Quick Navigation
 
-## 📋 Tech Stack
+##  Tech Stack
 
 - **Framework**: [Astro](https://astro.build)
 - **Styling**: [Tailwind CSS](https://tailwindcss.com)
