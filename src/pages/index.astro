@@ -1,0 +1,70 @@
+---
+// Main index page
+import Layout from '../layouts/Layout.astro';
+import Navigation from '../components/Navigation.astro';
+import Hero from '../components/Hero.astro';
+import About from '../components/About.astro';
+import Projects from '../components/Projects.astro';
+import Experience from '../components/Experience.astro';
+import Contact from '../components/Contact.astro';
+import Footer from '../components/Footer.astro';
+---
+
+<Layout>
+  <Navigation />
+  <main>
+    <Hero />
+    <About />
+    <Projects />
+    <Experience />
+    <Contact />
+  </main>
+  <Footer />
+</Layout>
+
+<style is:global>
+  /* Smooth transitions */
+  html {
+    scroll-behavior: smooth;
+  }
+
+  /* Custom scrollbar */
+  ::-webkit-scrollbar {
+    width: 8px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: #0f172a;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: #10b981;
+    border-radius: 4px;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: #059669;
+  }
+
+  /* Link hover effects */
+  a {
+    transition: color 0.3s ease;
+  }
+
+  /* Button animations */
+  button {
+    transition: all 0.3s ease;
+  }
+
+  /* Selection color */
+  ::selection {
+    background-color: rgba(16, 185, 129, 0.3);
+    color: #e2e8f0;
+  }
+
+  /* Focus visible for accessibility */
+  :focus-visible {
+    outline: 2px solid #10b981;
+    outline-offset: 2px;
+  }
+</style>

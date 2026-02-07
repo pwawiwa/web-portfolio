@@ -1,0 +1,100 @@
+---
+// Experience/Timeline section component
+---
+
+<section id="experience" class="py-20 px-4 sm:px-6 lg:px-8 relative">
+  <div class="max-w-4xl mx-auto">
+    <div class="mb-12">
+      <h2 class="text-4xl sm:text-5xl font-bold mb-4">
+        <span class="text-emerald-400">Experience</span> & Education
+      </h2>
+      <div class="w-12 h-1 bg-emerald-500 rounded-full"></div>
+    </div>
+
+    <!-- Timeline container -->
+    <div class="relative">
+      <!-- Vertical line (hidden on mobile) -->
+      <div class="hidden md:block absolute left-1/2 transform -translate-x-1/2 w-0.5 h-full bg-gradient-to-b from-emerald-500 to-emerald-500/20"></div>
+
+      <div class="space-y-8">
+        <!-- Timeline item 1 -->
+        <div class="md:grid md:grid-cols-2 md:gap-8 md:items-start group">
+          <!-- Left content (alternating) -->
+          <div class="md:text-right">
+            <div class="bg-slate-800/50 border border-emerald-500/20 rounded-lg p-6 hover:border-emerald-500/50 transition-all">
+              <div class="flex items-center gap-2 md:justify-end mb-2">
+                <span class="text-emerald-400 font-bold">Position/School</span>
+                <span class="w-3 h-3 bg-emerald-500 rounded-full hidden md:block"></span>
+              </div>
+              <h3 class="text-xl font-bold text-slate-100 mb-2">Your Title or Degree</h3>
+              <p class="text-slate-400 text-sm mb-3">Organization Name</p>
+              <p class="text-slate-500 text-sm">Timeline • Location</p>
+              <p class="text-slate-400 text-sm mt-3">Description of your role, achievements, and what you learned.</p>
+            </div>
+          </div>
+
+          <!-- Right content (for alternating layout) -->
+          <div class="hidden"></div>
+        </div>
+
+        <!-- Timeline item 2 -->
+        <div class="md:grid md:grid-cols-2 md:gap-8 md:items-start group">
+          <div></div>
+          <div>
+            <div class="bg-slate-800/50 border border-emerald-500/20 rounded-lg p-6 hover:border-emerald-500/50 transition-all">
+              <div class="flex items-center gap-2 mb-2">
+                <span class="w-3 h-3 bg-emerald-500 rounded-full md:hidden"></span>
+                <span class="text-emerald-400 font-bold">Position/School</span>
+              </div>
+              <h3 class="text-xl font-bold text-slate-100 mb-2">Your Title or Degree</h3>
+              <p class="text-slate-400 text-sm mb-3">Organization Name</p>
+              <p class="text-slate-500 text-sm">Timeline • Location</p>
+              <p class="text-slate-400 text-sm mt-3">Description of your role, achievements, and what you learned.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Timeline item 3 -->
+        <div class="md:grid md:grid-cols-2 md:gap-8 md:items-start group">
+          <div class="md:text-right">
+            <div class="bg-slate-800/50 border border-emerald-500/20 rounded-lg p-6 hover:border-emerald-500/50 transition-all">
+              <div class="flex items-center gap-2 md:justify-end mb-2">
+                <span class="text-emerald-400 font-bold">Position/School</span>
+                <span class="w-3 h-3 bg-emerald-500 rounded-full hidden md:block"></span>
+              </div>
+              <h3 class="text-xl font-bold text-slate-100 mb-2">Your Title or Degree</h3>
+              <p class="text-slate-400 text-sm mb-3">Organization Name</p>
+              <p class="text-slate-500 text-sm">Timeline • Location</p>
+              <p class="text-slate-400 text-sm mt-3">Description of your role, achievements, and what you learned.</p>
+            </div>
+          </div>
+          <div class="hidden"></div>
+        </div>
+
+        <!-- Placeholder message -->
+        <div class="bg-slate-800/30 border border-slate-700/50 rounded-lg p-8 text-center mt-8">
+          <p class="text-slate-400">More experiences coming soon...</p>
+          <p class="text-slate-500 text-sm mt-2">Fill in your education, internships, and professional experience in this section.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Accent elements -->
+    <div class="absolute -top-20 -left-20 w-40 h-40 bg-emerald-500/5 rounded-full blur-3xl pointer-events-none"></div>
+  </div>
+</section>
+
+<style>
+  section {
+    background: linear-gradient(
+      180deg,
+      transparent 0%,
+      rgba(16, 185, 129, 0.02) 50%,
+      transparent 100%
+    );
+  }
+
+  .group:hover .md\:block {
+    box-shadow: 0 0 20px rgba(16, 185, 129, 0.2);
+  }
+</style>

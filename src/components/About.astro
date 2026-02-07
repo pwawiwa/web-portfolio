@@ -1,0 +1,106 @@
+---
+// About section component
+---
+
+<section id="about" class="min-h-screen flex items-center py-20 px-4 sm:px-6 lg:px-8 relative">
+  <div class="max-w-4xl mx-auto w-full">
+    <div class="mb-12">
+      <h2 class="text-4xl sm:text-5xl font-bold mb-4">
+        <span class="text-emerald-400">About</span> Me
+      </h2>
+      <div class="w-12 h-1 bg-emerald-500 rounded-full"></div>
+    </div>
+
+    <div class="grid md:grid-cols-3 gap-8 items-start">
+      <!-- Text content -->
+      <div class="md:col-span-2 space-y-6">
+        <p class="text-lg text-slate-300 leading-relaxed">
+          I'm an honest, competitive, and fast-learning individual with a strong passion for 
+          <span class="text-emerald-400 font-semibold">Computer Vision</span>, 
+          <span class="text-emerald-400 font-semibold">AI Agents</span>, and 
+          <span class="text-emerald-400 font-semibold">Data Engineering</span>.
+        </p>
+
+        <p class="text-lg text-slate-300 leading-relaxed">
+          I'm experienced in building and orchestrating AI agents and data workflows, including 
+          task automation, model integration, and pipeline design. This includes hands-on experience 
+          with workflow orchestration tools like <span class="font-mono text-emerald-300">Apache Airflow</span> 
+          and cloud services with <span class="font-mono text-emerald-300">AWS</span>.
+        </p>
+
+        <p class="text-lg text-slate-300 leading-relaxed">
+          I completed my bachelor's degree with a thesis focused on 
+          <span class="text-emerald-400 font-semibold">Indonesian Lip Reading</span>—a deep learning-based 
+          approach to modeling complex visual patterns. Through this project, I gained proficiency with 
+          major frameworks like <span class="font-mono text-emerald-300">PyTorch</span> and 
+          <span class="font-mono text-emerald-300">TensorFlow</span>.
+        </p>
+
+        <p class="text-lg text-slate-300 leading-relaxed">
+          I'm fluent in <span class="font-mono text-emerald-300">Python</span>, <span class="font-mono text-emerald-300">SQL</span>, 
+          and <span class="font-mono text-emerald-300">R</span>, with hands-on experience across the data and 
+          ML stack. As an AWS Academy Graduate in Data Engineering, I'm certified and ready to tackle 
+          scalable data challenges.
+        </p>
+
+        <p class="text-lg text-slate-300 leading-relaxed">
+          I value <span class="text-emerald-400 font-semibold">GREATNESS in teamwork</span> and approach 
+          every challenge by identifying root causes and delivering effective, scalable solutions. 
+          My philosophy: solve it right the first time, and make it count.
+        </p>
+      </div>
+
+      <!-- Skills cards -->
+      <div class="md:col-span-1 space-y-4">
+        <div class="bg-slate-800/50 border border-emerald-500/20 rounded-lg p-6 hover:border-emerald-500/50 transition-all">
+          <h3 class="text-emerald-400 font-bold mb-3 flex items-center gap-2">
+            <span class="w-2 h-2 bg-emerald-500 rounded-full"></span>
+            Core Skills
+          </h3>
+          <ul class="space-y-2 text-slate-300 text-sm">
+            <li>• Computer Vision</li>
+            <li>• LLM & AI Agents</li>
+            <li>• Data Engineering</li>
+            <li>• ML Deployments</li>
+          </ul>
+        </div>
+
+        <div class="bg-slate-800/50 border border-emerald-500/20 rounded-lg p-6 hover:border-emerald-500/50 transition-all">
+          <h3 class="text-emerald-400 font-bold mb-3 flex items-center gap-2">
+            <span class="w-2 h-2 bg-emerald-500 rounded-full"></span>
+            Technologies
+          </h3>
+          <ul class="space-y-2 text-slate-300 text-sm font-mono">
+            <li>• Python, SQL, R</li>
+            <li>• PyTorch, TensorFlow</li>
+            <li>• AWS, Docker</li>
+            <li>• Apache Airflow</li>
+          </ul>
+        </div>
+
+        <div class="bg-slate-800/50 border border-emerald-500/20 rounded-lg p-6 hover:border-emerald-500/50 transition-all">
+          <h3 class="text-emerald-400 font-bold mb-3 flex items-center gap-2">
+            <span class="w-2 h-2 bg-emerald-500 rounded-full"></span>
+            Certification
+          </h3>
+          <p class="text-slate-300 text-sm">AWS Academy Graduate<br />Data Engineering</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Floating accent elements -->
+    <div class="absolute -top-20 -right-20 w-40 h-40 bg-emerald-500/5 rounded-full blur-3xl pointer-events-none"></div>
+    <div class="absolute -bottom-20 -left-20 w-40 h-40 bg-emerald-500/5 rounded-full blur-3xl pointer-events-none"></div>
+  </div>
+</section>
+
+<style>
+  section {
+    background: linear-gradient(
+      180deg,
+      transparent 0%,
+      rgba(16, 185, 129, 0.02) 50%,
+      transparent 100%
+    );
+  }
+</style>
